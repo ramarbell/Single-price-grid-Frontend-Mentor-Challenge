@@ -1,0 +1,136 @@
+body {
+min-height: 100vh;
+    display: grid;
+    place-items: center;
+background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+display: grid;
+height: 480px;
+width: 600px;
+background-color: hsl(204, 43%, 93%);
+border-radius: 10px;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+h1, .green, .first-p, h3, h4, .second-p, ul {
+font-family: "Karla";
+font-size: 16px;
+font-weight: 400;
+}
+
+h1 {
+color: hsl(179, 62%, 43%);
+margin: 35px;
+font-weight: 700;
+font-size: 1.4rem;
+}
+
+.green {
+font-weight: 700;
+color: hsl(71, 73%, 54%);
+margin: 35px;
+}
+
+.top-section {
+background-color: white;
+border-start-end-radius: 10px;
+border-start-start-radius: 10px;
+grid-row-start: 1;
+grid-row-end: 6;
+grid-column-start: 1;
+grid-column-end: 13;
+}
+
+.bottom-left {
+background-color: hsl(179, 62%, 41%);
+border-bottom-left-radius: 10px;
+grid-row-start: 6;
+grid-row-end: 12;
+grid-column-start: 1;
+grid-column-end: 7;
+
+}
+
+.bottom-right {
+background-color: hsl(179, 62%, 43%);
+border-bottom-right-radius: 10px;
+grid-row-start: 6;
+grid-row-end: 12;
+grid-column-start: 7;
+grid-column-end: 13;
+}
+
+#left {
+color: white;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 40px;
+font-weight: 700;
+}
+
+#right {
+color: white;
+font-weight: 700;
+margin-left: 40px;
+margin-top: 40px;
+}
+
+ul {
+list-style-type: none;
+color: white;
+opacity: 0.65;
+}
+
+.first-p {
+margin-left: 35px;
+color: hsl(218, 22%, 67%);
+}
+
+.second-p {
+opacity: 0.9;
+color: white;
+margin-left: 35px;
+margin-top: -30px;
+margin-bottom: 10px;
+font-size: 0.8rem;
+}
+
+h4 {
+font-weight: 700;
+font-size: 1.7rem;
+color: white;
+margin-left: 20px ;
+display: inline-block;
+margin-top: 15px;
+}
+
+button {
+font-family: 'Karla';
+background-color: hsl(71, 73%, 54%);
+border-radius: 5px;
+text-align: center;
+color: white;
+border: 0;
+padding: 10px;
+width: 220px;
+cursor: pointer;
+margin-left: 40px;
+margin-top: 20px;
+}
+
+button:hover {
+background-color: hsl(71, 73%, 45%);
+}
+
+#frequency {
+display: inline-block;
+color: white;
+font-size: 0.8rem;
+margin-left: 5px;
+opacity: 0.7;
+position: relative;
+top: -3px;
+}
